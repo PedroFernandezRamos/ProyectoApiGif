@@ -1,0 +1,9 @@
+.home-buscar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+app-buscar-gif{
+    width: 100%;
+}

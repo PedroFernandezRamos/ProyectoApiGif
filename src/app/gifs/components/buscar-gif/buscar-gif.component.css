@@ -1,0 +1,35 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../../assets/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+
+.buscar{
+    width: 65%;
+}
+
+input {
+    margin-left: 1rem;
+}
+
+input[type= "text"]{
+    width: 70%;
+}
+
+input[type= "submit"]{
+    background-color: black; 
+    color: white;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+input[type= "submit"]:hover{
+    background-color: white; 
+    color: black;
+    transition: all.3s ease;
+}
